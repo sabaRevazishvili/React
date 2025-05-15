@@ -17,12 +17,13 @@ export default function Box() {
     borderRadius: 50,
     cursor: "pointer",
     display: "flex",
+    alignItems: "center",
     padding: 10,
   };
 
   const handle = {
-    width: 50,
-    height: 50,
+    width: 35,
+    height: 35,
     backgroundColor: "#9911ff",
     borderRadius: "50%",
   };
